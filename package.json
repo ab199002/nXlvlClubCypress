@@ -1,0 +1,22 @@
+{
+  "name": "nxlvlclubcypress",
+  "version": "1.0.0",
+  "description": "This is for Club app application cypress E2E automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ab199002/nXlvlClubCypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ab199002/nXlvlClubCypress/issues"
+  },
+  "homepage": "https://github.com/ab199002/nXlvlClubCypress#readme",
+  "devDependencies": {
+    "cypress": "^13.3.1"
+  }
+}
