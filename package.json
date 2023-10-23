@@ -4,6 +4,7 @@
   "description": "This is for Club app application cypress E2E automation",
   "main": "index.js",
   "scripts": {
+    "test:HomepgaeVerification": "npx cypress run --spec cypress/e2e/test/HomePageVerification.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/ab199002/nXlvlClubCypress#readme",
   "devDependencies": {
-    "cypress": "^13.3.1"
+    "cypress": "^13.3.1",
+    "cypress-mochawesome-reporter": "^3.6.1"
   }
 }

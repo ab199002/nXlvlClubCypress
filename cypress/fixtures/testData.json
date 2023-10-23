@@ -1,0 +1,13 @@
+{
+    "Login":
+    {
+    "username": "a.b+1@yopmail.com",
+    "password": "Admin@123"
+    },
+    "UserDetails":
+    {
+        "username": "@michigan.athletics",
+        "name"    : "The Block",
+        "businessemail": "michigan@yopmail.com"
+    }
+}
