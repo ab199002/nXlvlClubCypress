@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:HomepgaeVerification": "npx cypress run --spec cypress/e2e/test/HomePageVerification.cy.js",
+    "test:LoginTest" : "npx cypress run --spec cypress/e2e/test/LoginTest.cy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
