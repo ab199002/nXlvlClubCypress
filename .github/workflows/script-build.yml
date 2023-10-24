@@ -12,10 +12,20 @@ jobs:
         uses: cypress-io/github-action@v6
         with: 
           command: npm run test:HomepgaeVerification
-
-
+       
+          
       - name: Cypress Test Report
+        if: always() 
         uses: actions/upload-artifact@v3
         with:
           name: Mocha Awesome Reports
           path: cypress/reports/html # or path/to/artifact
+
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+            SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
+            SLACK_ICON: https://github.com/rtCamp.png?size=48
+            SLACK_MESSAGE: 'Cypress Web Automation Report: https://github.com/ab199002/nXlvlClubCypress/actions/runs/${{github.run_id}}'
+            SLACK_USERNAME: rtCamp
+            SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
