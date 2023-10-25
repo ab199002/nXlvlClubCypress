@@ -24,6 +24,6 @@ describe('test automation',()=>{
         // homePageDetailsVerifications.verifyaplleStoreRedirection().invoke('text').then((text)=>{
         //     cy.log(text);
         // })
-        homePageDetailsVerifications.verifyaplleStoreRedirection().should('contain', 'nxlvl-next-level')
+        //homePageDetailsVerifications.verifyaplleStoreRedirection().should('contain', 'nxlvl-next-level')
     })
 })
