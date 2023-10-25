@@ -21,5 +21,9 @@ describe('test automation',()=>{
         homePageDetailsVerifications.verifyuserNameDetails().should('contain',testData.UserDetails.username)
         homePageDetailsVerifications.verifynameDetails().should('contain', testData.UserDetails.name)
         homePageDetailsVerifications.verifybusinessEmailDetails().should('contain', testData.UserDetails.businessemail)
+        // homePageDetailsVerifications.verifyaplleStoreRedirection().invoke('text').then((text)=>{
+        //     cy.log(text);
+        // })
+        homePageDetailsVerifications.verifyaplleStoreRedirection().should('contain', 'nxlvl-next-level')
     })
 })
