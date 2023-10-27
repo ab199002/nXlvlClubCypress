@@ -9,5 +9,10 @@
         "username": "@michigan.athletics",
         "name"    : "The Block",
         "businessemail": "michigan@yopmail.com"
+    },
+    "StoreDetails":
+    {
+        "appStoreURL" : "https://apps.apple.com/in/app/nxlvl/id1583608085",
+        "playStoreURL" : "https://play.google.com/store/apps/details?id=com.nxlvl.app"
     }
 }
